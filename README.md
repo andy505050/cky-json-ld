@@ -16,7 +16,7 @@ A small component to easily generate JSON-LD schema to index.html from route con
   const routes: Routes = [
     {
       path: 'demo1',
-      component: Demo1Component
+      component: Demo1Component,
       data: {
         ld: {
           '@context': 'http://schema.org',
